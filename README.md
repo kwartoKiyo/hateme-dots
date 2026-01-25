@@ -34,9 +34,10 @@ Designed for a **modern look**, smooth animations, and practical tools for daily
 
 Backup your current dotfiles (always recommended):
 
-1. Make a backup of your config
+1. Make a backup of your config and update the system.
 ```bash
 cp -r ~/.config ~/.config_backup
+sudo pacman -Syu
 ```
 2. Clone the repository
 ```bash
