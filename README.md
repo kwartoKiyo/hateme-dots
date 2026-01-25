@@ -46,7 +46,7 @@ cd ~/.config/hateme-dots
 4. Install dependencies (see above).
  Pacman
 ```bash
- sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava cmatrix
+ sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava cmatrix-git
 ```
 AUR
 ```bash
