@@ -41,7 +41,7 @@ sudo pacman -Syu
 ```
 2. Clone the repository
 ```bash
-git clone https://github.com/kwartoKiyo/selfharm-dots.git ~/.config/hateme-dots
+git clone https://github.com/kwartoKiyo/hateme-dots.git ~/.config/hateme-dots
 cd ~/.config/hateme-dots
 ```
 4. Install dependencies (see above).
