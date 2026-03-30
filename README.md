@@ -44,7 +44,7 @@ sudo pacman -Syu
 git clone https://github.com/kwartoKiyo/hateme-dots.git ~/.config/hateme-dots
 cd ~/.config/hateme-dots
 ```
-4. Install dependencies (see above).
+3. Install dependencies (see above).
  Pacman
 ```bash
  sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava cmatrix-git
@@ -55,12 +55,12 @@ yay -S python-pywal16 spotify
 ```
 4.Link or copy configuration files to ~/.config:
 ```bash
-cd ~/.config/selfharm-dots
+cd ~/.config/hateme-dots
 cp -r /* ~/
 ```
 5.Update the Waybar and Wofi configuration: If your Waybar and Wofi configuration references a CSS file like:
 ```Configuration files
-@import "/home/kiyora/.cache/wal/colors-waybar.css";
+@import "/home/$USER/.cache/wal/colors-waybar.css";
 ```
 make sure to replace "kiyora" with your actual username.
 
