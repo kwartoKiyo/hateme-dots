@@ -74,7 +74,12 @@ cp -r * ~/
 ```
 make sure to replace "kiyora" with your actual username.
 
-6.Reload Hyprland to apply changes:
+6.Create a wal color configuration
+```bash
+## Random wallpaper 
+wal -i ~/.config/wallpapers/abstract.jpg 
+```
+7. Reload a hyprland config and use.
 ```bash
 hyprctl reload
 ```
