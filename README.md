@@ -58,6 +58,8 @@ yay -S python-pywal16 spotify cmatrix-git
 4.Link or copy configuration files to ~/.config:
 ```bash
 cd ~/.config/hateme-dots
+```
+```bash
 cp -r * ~/
 ```
 5.Update the Waybar and Wofi configuration: If your Waybar and Wofi configuration references a CSS file like:
