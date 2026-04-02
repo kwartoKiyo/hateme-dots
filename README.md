@@ -37,26 +37,28 @@ Backup your current dotfiles (always recommended):
 1. Make a backup of your config and update the system.
 ```bash
 cp -r ~/.config ~/.config_backup
+```
+```bash
 sudo pacman -Syu
 ```
 2. Clone the repository
 ```bash
 git clone https://github.com/kwartoKiyo/hateme-dots.git ~/.config/hateme-dots
-cd ~/.config/hateme-dots
 ```
+
 3. Install dependencies (see above).
  Pacman
 ```bash
- sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava cmatrix-git
+ sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava
 ```
 AUR
 ```bash
-yay -S python-pywal16 spotify
+yay -S python-pywal16 spotify cmatrix-git
 ```
 4.Link or copy configuration files to ~/.config:
 ```bash
 cd ~/.config/hateme-dots
-cp -r /* ~/
+cp -r * ~/
 ```
 5.Update the Waybar and Wofi configuration: If your Waybar and Wofi configuration references a CSS file like:
 ```Configuration files
