@@ -72,9 +72,9 @@ cp -r * ~/
 ```
 
 6.Create a wal color configuration
-## Random wallpaper 
+Random wallpaper 
 ```bash
-wal -i ~/.config/wallpapers/abstract.jpg 
+wall -i ~/.config/wallpapers/abstract.jpg 
 ```
 7. Reload a hyprland config and use.
 ```bash
