@@ -76,7 +76,15 @@ Random wallpaper
 ```bash
 wall -i ~/.config/wallpapers/abstract.jpg 
 ```
-7. Reload a hyprland config and use.
+7. Change $USER on your USER in wofo and waybar configurations
+```bash
+nano ~/.config/waybar/style.css
+```
+```bash
+nano ~/.config/wofi/style.css
+```
+
+8. Reload a hyprland config and use.
 ```bash
 hyprctl reload
 ```
