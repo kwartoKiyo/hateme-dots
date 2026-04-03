@@ -33,29 +33,31 @@ Designed for a **modern look**, smooth animations, and practical tools for daily
 ## ⚡ Installation Guide
 
 Backup your current dotfiles (always recommended):
-
-1. Make a backup of your config and update the system.
+1. Make a backup of your config. ## Skip if u have newly installed system.
 ```bash
 cp -r ~/.config ~/.config_backup
 ```
+
+2. Make a backup of your config and Update the system.
 ```bash
 sudo pacman -Syu
 ```
-2. Clone the repository
+
+3. Clone the repository
 ```bash
 git clone https://github.com/kwartoKiyo/hateme-dots.git ~/.config/hateme-dots
 ```
 
-3. Install dependencies (see above).
+4. Install dependencies (see above).
  Pacman
 ```bash
- sudo pacman -S hyprland kitty wofi rofi obs-studio firefox heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar micro btop cava
+sudo pacman -S hyprland kitty wofi rofi obs-studio zen-browser heroic-games-launcher waybar mako zsh dolphin ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww hyprshot yay vesktop steam thunar btop cava
 ```
 AUR
 ```bash
 yay -S python-pywal16 spotify cmatrix-git
 ```
-4.Link or copy configuration files to ~/.config:
+5. Link or copy configuration files to ~/.config:
 ```bash
 cd ~/.config/hateme-dots/.config
 ```
@@ -68,15 +70,10 @@ cd ~/.config/hateme-dots
 ```bash
 cp -r * ~/
 ```
-5.Update the Waybar and Wofi configuration: If your Waybar and Wofi configuration references a CSS file like:
-```Configuration files
-@import "/home/kiyora/.cache/wal/colors-waybar.css";
-```
-make sure to replace "kiyora" with your actual username.
 
 6.Create a wal color configuration
-```bash
 ## Random wallpaper 
+```bash
 wal -i ~/.config/wallpapers/abstract.jpg 
 ```
 7. Reload a hyprland config and use.
@@ -91,8 +88,8 @@ hyprctl reload
 Feel free to tweak the configuration files in the **~/.config** directory to suit your preferences.
 
 Wallpaper & Colors: Change wallpaper and run:
-```bash
 ##wal16 -i /path/to/wallpaper
+```bash
 wal16 -i ~/.config/wallpapers/chooseyourwallpaper
 
 ```
