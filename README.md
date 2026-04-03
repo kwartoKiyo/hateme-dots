@@ -74,7 +74,7 @@ cp -r * ~/
 6.Create a wal color configuration
 Random wallpaper 
 ```bash
-wall -i ~/.config/wallpapers/abstract.jpg 
+wal -i ~/.config/wallpapers/abstract.jpg 
 ```
 7. Change $USER on your USER in wofo and waybar configurations
 ```bash
